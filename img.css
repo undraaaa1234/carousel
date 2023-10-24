@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.slider {
+    width: 300px;
+    border: 5px solid red;
+    /* overflow: hidden; */
+}
+
+
+.images {
+    width: 500%;
+    display: flex;
+    transform: translateX(-20%);
+}
+
+.images img {
+    width: 20%;
+    flex-grow: 1;
+    flex-basis: 0;
+    height: 300px;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.styleBtn {
+    padding: 15px;
+}
