@@ -39,4 +39,4 @@ const id = setInterval(() => {
     index++;
     slide.style.transition = "500ms";
     slide.style.transform = `translateX(${index * -20}%)`
-}, 2000)
+}, 2000);
